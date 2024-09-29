@@ -1,15 +1,17 @@
-package com.example.booktracking.features.register
+package com.example.booktracking.features.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.booktracking.databinding.FragmentRegisterBinding
+import com.example.booktracking.R
+import com.example.booktracking.databinding.FragmentHomeBinding
 
-class RegisterFragment : Fragment() {
 
-    private var _binding:FragmentRegisterBinding?=null
+class HomeFragment : Fragment() {
+
+    private var _binding:FragmentHomeBinding?=null
     private val binding get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,11 +22,11 @@ class RegisterFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
-        _binding=FragmentRegisterBinding.inflate(inflater,container,false)
-
+    ): View? {
+        _binding=FragmentHomeBinding.inflate(inflater,container,false)
         return binding.root
     }
+
 
 
 }

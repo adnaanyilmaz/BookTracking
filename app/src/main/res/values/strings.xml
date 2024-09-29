@@ -2,4 +2,6 @@
     <string name="app_name">BookTracking</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">952471599136-u14iubkc082n49cn6f6obrij93tifr30.apps.googleusercontent.com</string>
+
 </resources>

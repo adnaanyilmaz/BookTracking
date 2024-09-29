@@ -54,6 +54,16 @@
                 android:text="Sing In"
                 android:textColor="@color/white" />
 
+            <Button
+                android:id="@+id/btnLoginWithGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="Sing In With Google"
+                android:textColor="@color/white"
+                />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -65,21 +75,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Forgot Password?"
-                    android:textColor="@color/cardview_dark_background"
-                    android:textStyle="bold"
                     android:layout_weight="1"
                     android:clickable="true"
-                    />
+                    android:text="Forgot Password?"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold" />
+
                 <Button
-                    android:layout_weight="1"
                     android:id="@+id/btnRegister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Register"
+                    android:layout_weight="1"
                     android:backgroundTint="@color/cardview_dark_background"
-                     />
+                    android:text="Register" />
             </LinearLayout>
         </LinearLayout>
 
